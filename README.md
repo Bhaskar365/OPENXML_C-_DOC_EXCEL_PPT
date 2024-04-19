@@ -11,4 +11,17 @@ Shading shading = new Shading() { Fill = "FFFF00" }; // Change the color as need
 // Create a run fonts element to specify the font family
 RunFonts runFonts = new RunFonts() { Ascii = "Bauhaus 93" }; // Change "Bauhaus 93" to the desired font family
 
+run.RunProperties = runProperties;
+
+// Create a paragraph and add the run to it
+Paragraph paragraph = new Paragraph(run);
+
+// Append the paragraph to the main body
+mainPart.Document.Body.AppendChild(paragraph);
+
+// Insert an additional paragraph
+Paragraph additionalParagraph = new Paragraph(new Run(new Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit .......... ")));
+mainPart.Document.Body.AppendChild(additionalParagraph);
+
+
 Use as required.
