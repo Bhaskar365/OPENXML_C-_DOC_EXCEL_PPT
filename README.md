@@ -8,4 +8,7 @@ DocumentFormat.OpenXml.Wordprocessing.Color fontColor = new DocumentFormat.OpenX
 // Create a background color element using Shading
 Shading shading = new Shading() { Fill = "FFFF00" }; // Change the color as needed
 
+// Create a run fonts element to specify the font family
+RunFonts runFonts = new RunFonts() { Ascii = "Bauhaus 93" }; // Change "Bauhaus 93" to the desired font family
+
 Use as required.
