@@ -51,7 +51,7 @@ void DOC()
         Shading shading = new Shading() { Fill = "FFFF00" }; // Change the color as needed
 
         // Create a run fonts element to specify the font family
-        RunFonts runFonts = new RunFonts() { Ascii = "Bauhaus 93" }; // Change "Arial" to the desired font family
+        RunFonts runFonts = new RunFonts() { Ascii = "Bauhaus 93" }; // Change "Bauhaus 93" to the desired font family
 
         // Apply the font size, font color, background color, and font family to the run properties
         runProperties.Append(fontSize);
@@ -67,6 +67,10 @@ void DOC()
 
         // Append the paragraph to the main body
         mainPart.Document.Body.AppendChild(paragraph);
+
+        // Insert an additional paragraph
+        Paragraph additionalParagraph = new Paragraph(new Run(new Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")));
+        mainPart.Document.Body.AppendChild(additionalParagraph);
 
         // Save the changes
         mainPart.Document.Save();
