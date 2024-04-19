@@ -39,7 +39,6 @@ void DOC()
         // Create a run with the text content
         Run run = new Run(new Text("Text with changed font and background color."));
 
-        // Create a run properties element
         RunProperties runProperties = new RunProperties();
 
         // Create a font size element
@@ -51,10 +50,14 @@ void DOC()
         // Create a background color element using Shading
         Shading shading = new Shading() { Fill = "FFFF00" }; // Change the color as needed
 
-        // Apply the font size, font color, and background color directly to the run properties
+        // Create a run fonts element to specify the font family
+        RunFonts runFonts = new RunFonts() { Ascii = "Bauhaus 93" }; // Change "Arial" to the desired font family
+
+        // Apply the font size, font color, background color, and font family to the run properties
         runProperties.Append(fontSize);
         runProperties.Append(fontColor);
         runProperties.Append(shading); // Apply shading to the run
+        runProperties.Append(runFonts); // Apply font family
 
         // Apply the run properties to the run containing the text
         run.RunProperties = runProperties;
