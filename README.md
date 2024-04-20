@@ -1,4 +1,4 @@
-1.) Document file download instruction
+1.) Document file generation using OpenXML instruction
 
 Clone the repo and then give the local path of your system for triggering document file in the folder I am using . If you do not want the folder , use the location of your project tree.
 
@@ -23,5 +23,8 @@ mainPart.Document.Body.AppendChild(paragraph);
 Paragraph additionalParagraph = new Paragraph(new Run(new Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit .......... ")));
 mainPart.Document.Body.AppendChild(additionalParagraph);
 
+2.) Insert Image into document using OpenXML -
+
+  For reference, go through this link - https://learn.microsoft.com/en-us/office/open-xml/word/how-to-insert-a-picture-into-a-word-processing-document?tabs=cs-0%2Ccs-1%2Ccs-2%2Ccs-3%2Ccs
 
 Use as required.
