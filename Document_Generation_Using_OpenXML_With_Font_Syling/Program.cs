@@ -1,7 +1,11 @@
-﻿
+﻿using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
-using DocumentFormat.OpenXml;
+using System;
+using System.IO;
+using A = DocumentFormat.OpenXml.Drawing;
+using DW = DocumentFormat.OpenXml.Drawing.Wordprocessing;
+using PIC = DocumentFormat.OpenXml.Drawing.Pictures;
 
 Console.WriteLine("Hello, World!");
 
@@ -80,4 +84,5 @@ void DOC()
 }
 
 DOC();
+
 

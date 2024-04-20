@@ -12,8 +12,4 @@
     <PackageReference Include="DocumentFormat.OpenXml.Framework" Version="3.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DocumentFolder\" />
-  </ItemGroup>
-
 </Project>
