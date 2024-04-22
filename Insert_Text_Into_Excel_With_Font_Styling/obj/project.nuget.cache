@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XUg7vSPlxH7wAaV5IEW+ENTSFaJYEl+zO9VZDjbki45ja1AM57R3uiCzCI0dE9V36LsTX1tWq0xR0Ocnynmg4Q==",
+  "success": true,
+  "projectFilePath": "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Insert_Text_Into_Excel_With_Font_Styling\\Insert_Text_Into_Excel_With_Font_Styling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bdas\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
+    "C:\\Users\\bdas\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
+    "C:\\Users\\bdas\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
