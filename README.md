@@ -11,4 +11,6 @@ Clone the repo and then give the local path of your system for triggering docume
 
 5.) Insert new slide into PPT 
 
+6.) Generate new blank excel
+
 Use as required.
