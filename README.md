@@ -3,6 +3,7 @@
 Clone the repo and then give the local path of your system for triggering document file in the folder I am using . If you do not want the folder , use the location of your project tree.
 
 // Create a color element for the font
+
 **DocumentFormat.OpenXml.Wordprocessing.Color fontColor = new DocumentFormat.OpenXml.Wordprocessing.Color() { Val = "FF0000" };** // Change the color as needed
 
 // Create a background color element using Shading
@@ -20,6 +21,7 @@ Clone the repo and then give the local path of your system for triggering docume
 **mainPart.Document.Body.AppendChild(paragraph);**
 
 // Insert an additional paragraph
+
 **Paragraph additionalParagraph = new Paragraph(new Run(new Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit .......... ")));
 mainPart.Document.Body.AppendChild(additionalParagraph);**
 
@@ -30,14 +32,15 @@ mainPart.Document.Body.AppendChild(additionalParagraph);**
 3.) Insert Image into PPT with specific width, height, x-position, y-position  using OpenXML - 
 
   // Set X-axis and Y-axis positions
-**picture.ShapeProperties.Transform2D.Append(new DocumentFormat.OpenXml.Drawing.Offset
-{
-    X = xPosition, // X-axis position
-
-    Y = yPosition, // Y-axis position
-});**
+  
+ **picture.ShapeProperties.Transform2D.Append(new DocumentFormat.OpenXml.Drawing.Offset
+  {
+    X = xPosition,
+    Y = yPosition, 
+  });**
 
 // Set the size and type of the image
+
 **picture.ShapeProperties.Transform2D.Append(new DocumentFormat.OpenXml.Drawing.Extents
 {
     Cx = 3000000, // Width of the image
