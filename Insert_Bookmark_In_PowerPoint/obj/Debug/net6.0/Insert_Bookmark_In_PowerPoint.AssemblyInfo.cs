@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Insert_Bookmark_In_PowerPoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f644fde6bc3ff09fc8b8deca22c0e61d50015b89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a87b50b042296da04e0a597c5805a048224d470")]
 [assembly: System.Reflection.AssemblyProductAttribute("Insert_Bookmark_In_PowerPoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Insert_Bookmark_In_PowerPoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
