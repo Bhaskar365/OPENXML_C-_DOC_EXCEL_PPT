@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4lESjo7DYlGSp5PpSC/BUKLB9gwdx/x0xxweMqKJqjYLaNkby1o4MyOZ9EbgZigHSiyozegSRGw461LW82vz1Q==",
+  "success": true,
+  "projectFilePath": "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Insert_Text_Into_Cell_In_SpreadSheet_In_Excel\\Insert_Text_Into_Cell_In_SpreadSheet_In_Excel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bdas\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
+    "C:\\Users\\bdas\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
+    "C:\\Users\\bdas\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
