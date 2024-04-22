@@ -5,12 +5,14 @@ Clone the repo and then give the local path of your system for triggering docume
 
 2.) Insert Image into document using OpenXML -
 
-3.) Insert Image into PPT with specific width, height, x-position, y-position  using OpenXML - 
+3.) Insert Image into PPT with specific width, height, x-position, y-position  using OpenXML
 
 4.) Insert Bookmark into PPT with x,y coordinates.
 
 5.) Insert new slide into PPT 
 
 6.) Generate new blank excel
+
+7.) Create new cell and insert text in it
 
 Use as required.
