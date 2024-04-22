@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image_Insert_In_PowerPoint"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_Bookmark_In_PowerPoint", "Insert_Bookmark_In_PowerPoint\Insert_Bookmark_In_PowerPoint.csproj", "{078A0329-3976-4EC0-907A-689A1492F808}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_New_Slide_In_PPT", "Insert_New_Slide_In_PPT\Insert_New_Slide_In_PPT.csproj", "{3ED96B7F-4D89-44F2-88D7-DB7BA07E5A17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{078A0329-3976-4EC0-907A-689A1492F808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{078A0329-3976-4EC0-907A-689A1492F808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{078A0329-3976-4EC0-907A-689A1492F808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED96B7F-4D89-44F2-88D7-DB7BA07E5A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED96B7F-4D89-44F2-88D7-DB7BA07E5A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED96B7F-4D89-44F2-88D7-DB7BA07E5A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED96B7F-4D89-44F2-88D7-DB7BA07E5A17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
