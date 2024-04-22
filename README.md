@@ -13,6 +13,6 @@ Clone the repo and then give the local path of your system for triggering docume
 
 6.) Generate new blank excel
 
-7.) Create new cell and insert text in it
+7.) Create new cell and insert text in that excel
 
 Use as required.
