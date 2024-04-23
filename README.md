@@ -1,6 +1,8 @@
 
 Clone the repo and then give the local path of your system for triggering document file in the folder I am using . If you do not want the folder , use the location of your project tree.
 
+**Note** : _Selecting project tree may select csproj file also. Making changes to the file makes the project corrupted._
+
 1.) Document file generation using OpenXML instruction
 
 2.) Insert Image into document using OpenXML -
@@ -14,5 +16,7 @@ Clone the repo and then give the local path of your system for triggering docume
 6.) Generate new blank excel
 
 7.) Create new cell and insert text in that excel
+
+8.) Insert text into excel with font styling
 
 Use as required.
