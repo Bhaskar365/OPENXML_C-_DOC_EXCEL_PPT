@@ -19,4 +19,6 @@ Clone the repo and then give the local path of your system for triggering docume
 
 8.) Insert text into excel with font styling
 
+9.) Open and Add Text to Word file.
+
 Use as required.
