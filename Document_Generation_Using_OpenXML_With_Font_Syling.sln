@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate_New_Blank_Excel", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert_Text_Into_Cell_In_SpreadSheet_In_Excel", "Insert_Text_Into_Cell_In_SpreadSheet_In_Excel\Insert_Text_Into_Cell_In_SpreadSheet_In_Excel.csproj", "{90146730-D6D1-46D0-900D-94C9E87914DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_Text_Into_Excel_With_Font_Styling", "Insert_Text_Into_Excel_With_Font_Styling\Insert_Text_Into_Excel_With_Font_Styling.csproj", "{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert_Text_Into_Excel_With_Font_Styling", "Insert_Text_Into_Excel_With_Font_Styling\Insert_Text_Into_Excel_With_Font_Styling.csproj", "{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add_Table_To_Document", "Add_Table_To_Document\Add_Table_To_Document.csproj", "{DBBCA041-69D6-4786-B2A8-EBBF4521B3F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBCA041-69D6-4786-B2A8-EBBF4521B3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBCA041-69D6-4786-B2A8-EBBF4521B3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBCA041-69D6-4786-B2A8-EBBF4521B3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBCA041-69D6-4786-B2A8-EBBF4521B3F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
