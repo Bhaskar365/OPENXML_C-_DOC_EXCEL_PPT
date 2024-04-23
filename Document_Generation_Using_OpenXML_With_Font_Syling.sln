@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document_Generation_Using_O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Image_Insert_In_Document", "Image_Insert_In_Document\Image_Insert_In_Document.csproj", "{BDAD6481-29C2-4272-8B92-A7B8D8A2443E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image_Insert_In_PowerPoint", "Image_Insert_In_PowerPoint\Image_Insert_In_PowerPoint.csproj", "{AFDBB223-9FE4-4BFA-A837-07B404470F92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Image_Insert_In_PowerPoint", "Image_Insert_In_PowerPoint\Image_Insert_In_PowerPoint.csproj", "{AFDBB223-9FE4-4BFA-A837-07B404470F92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_Bookmark_In_PowerPoint", "Insert_Bookmark_In_PowerPoint\Insert_Bookmark_In_PowerPoint.csproj", "{078A0329-3976-4EC0-907A-689A1492F808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert_Bookmark_In_PowerPoint", "Insert_Bookmark_In_PowerPoint\Insert_Bookmark_In_PowerPoint.csproj", "{078A0329-3976-4EC0-907A-689A1492F808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_New_Slide_In_PPT", "Insert_New_Slide_In_PPT\Insert_New_Slide_In_PPT.csproj", "{3ED96B7F-4D89-44F2-88D7-DB7BA07E5A17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert_New_Slide_In_PPT", "Insert_New_Slide_In_PPT\Insert_New_Slide_In_PPT.csproj", "{3ED96B7F-4D89-44F2-88D7-DB7BA07E5A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate_New_Blank_Excel", "Generate_New_Blank_Excel\Generate_New_Blank_Excel.csproj", "{B473E27D-6CEB-4D22-BBF9-CF36E2C2E109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate_New_Blank_Excel", "Generate_New_Blank_Excel\Generate_New_Blank_Excel.csproj", "{B473E27D-6CEB-4D22-BBF9-CF36E2C2E109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_Text_Into_Cell_In_SpreadSheet_In_Excel", "Insert_Text_Into_Cell_In_SpreadSheet_In_Excel\Insert_Text_Into_Cell_In_SpreadSheet_In_Excel.csproj", "{90146730-D6D1-46D0-900D-94C9E87914DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert_Text_Into_Cell_In_SpreadSheet_In_Excel", "Insert_Text_Into_Cell_In_SpreadSheet_In_Excel\Insert_Text_Into_Cell_In_SpreadSheet_In_Excel.csproj", "{90146730-D6D1-46D0-900D-94C9E87914DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_Text_Into_Excel_With_Font_Styling", "Insert_Text_Into_Excel_With_Font_Styling\Insert_Text_Into_Excel_With_Font_Styling.csproj", "{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{90146730-D6D1-46D0-900D-94C9E87914DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90146730-D6D1-46D0-900D-94C9E87914DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90146730-D6D1-46D0-900D-94C9E87914DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A891F9A3-ED89-43AE-9EAB-419D1C09CE2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

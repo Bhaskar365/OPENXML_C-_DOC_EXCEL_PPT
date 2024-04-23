@@ -9,7 +9,7 @@ CreateSpreadsheetWorkbook();
 static void CreateSpreadsheetWorkbook()
 {
     Console.WriteLine("Excel writing started");
-    string filepath = "C:\\Angular_RunningPrograms\\LINQ_Test\\testApp\\BookmarkTest\\sample.xlsx";
+    string filepath = "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Insert_Text_Into_Excel_With_Font_Styling\\Excel_Destination\\sample.xlsx";
 
     using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Create(filepath, SpreadsheetDocumentType.Workbook))
     {

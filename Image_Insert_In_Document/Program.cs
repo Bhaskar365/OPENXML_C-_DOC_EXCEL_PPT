@@ -9,12 +9,13 @@ using PIC = DocumentFormat.OpenXml.Drawing.Pictures;
 
 Console.WriteLine("Hello, World!");
 
-static void InsertAPicture()
-{
-    string documentLocation = "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_Document\\Destination\\testBlankDoc.docx";
-    string imageLocation = "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_Document\\Destination\\sampleLogo.jpg";
+InsertAPicture("C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_Document\\Destination\\blankDoc1.docx",
+               "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_Document\\Destination\\sampleLogo.jpg");
 
-    using (WordprocessingDocument wordprocessingDocument = WordprocessingDocument.Open(documentLocation, true))
+static void InsertAPicture(string document, string fileName)
+{
+    Console.WriteLine("Image generation started");
+    using (WordprocessingDocument wordprocessingDocument = WordprocessingDocument.Open(document, true))
     {
         if (wordprocessingDocument.MainDocumentPart is null)
         {
@@ -25,23 +26,23 @@ static void InsertAPicture()
 
         ImagePart imagePart = mainPart.AddImagePart(ImagePartType.Jpeg);
 
-        using (FileStream stream = new FileStream(imageLocation, FileMode.Open))
+        using (FileStream stream = new FileStream(fileName, FileMode.Open))
         {
             imagePart.FeedData(stream);
         }
 
         AddImageToBody(wordprocessingDocument, mainPart.GetIdOfPart(imagePart));
+        Console.WriteLine("Image generation complete");
     }
 }
 
 static void AddImageToBody(WordprocessingDocument wordDoc, string relationshipId)
 {
-    Console.WriteLine("Image Generation Started");
     // Define the reference of the image.
     var element =
          new Drawing(
              new DW.Inline(
-                 new DW.Extent() { Cx = 150000L, Cy = 150000L },
+                 new DW.Extent() { Cx = 990000L, Cy = 792000L },
                  new DW.EffectExtent()
                  {
                      LeftEdge = 0L,
@@ -108,7 +109,4 @@ static void AddImageToBody(WordprocessingDocument wordDoc, string relationshipId
 
     // Append the reference to body, the element should be in a Run.
     wordDoc.MainDocumentPart.Document.Body.AppendChild(new Paragraph(new Run(element)));
-    Console.WriteLine("Image Generation Successful");
 }
-
-InsertAPicture();
