@@ -37,7 +37,7 @@ void DOC()
             RunProperties runProperties = new RunProperties();
 
             // Create a font size element
-            FontSize fontSize = new FontSize() { Val = "24" }; // Change the font size as needed
+            //FontSize fontSize = new FontSize() { Val = "24" }; // Change the font size as needed
 
             // Create a color element for the font
             DocumentFormat.OpenXml.Wordprocessing.Color fontColor = new DocumentFormat.OpenXml.Wordprocessing.Color() { Val = "FF0000" }; // Change the color as needed
@@ -49,7 +49,7 @@ void DOC()
             RunFonts runFonts = new RunFonts() { Ascii = "Bauhaus 93" }; // Change "Bauhaus 93" to the desired font family
 
             // Apply the font size, font color, background color, and font family to the run properties
-            runProperties.Append(fontSize);
+           // runProperties.Append(fontSize);
             runProperties.Append(fontColor);
             runProperties.Append(shading); // Apply shading to the run
             runProperties.Append(runFonts); // Apply font family

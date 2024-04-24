@@ -12,6 +12,7 @@ OpenAndAddTextToWordDocument();
 
 static void OpenAndAddTextToWordDocument()
 {
+    Console.WriteLine("inserting text");
     string filepath = @"C:\OPENXML_C#\Document_Generation_Using_OpenXML_With_Font_Syling\Open_Add_Text_To_Word\Document_Folder\blankDoc1.docx";
     string txt = "Append text in body - OpenAndAddTextToWordDocument";
 
@@ -28,5 +29,6 @@ static void OpenAndAddTextToWordDocument()
         Paragraph para = body.AppendChild(new Paragraph());
         Run run = para.AppendChild(new Run());
         run.AppendChild(new Text(txt));
+        Console.WriteLine("insertion successful");
     }
 }

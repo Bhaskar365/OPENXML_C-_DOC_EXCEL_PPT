@@ -10,6 +10,7 @@ static void AddBookmark(string file, string bookmarkName, int xPosition, int yPo
     {
         using (var presentation = PresentationDocument.Open(file, true))
         {
+            Console.WriteLine("Bookmark add operation started");
             var slidePart = presentation.PresentationPart.GetPartsOfType<SlidePart>().FirstOrDefault();
             if (slidePart != null)
             {
