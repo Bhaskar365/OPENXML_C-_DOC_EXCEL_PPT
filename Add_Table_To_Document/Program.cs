@@ -11,6 +11,7 @@ AddTable();
 // end of the supplied document.
 static void AddTable()
 {
+    Console.WriteLine("Started generating table");
     string fileName = "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Add_Table_To_Document\\Sample_Doc\\sample.docx";
 
     string json = "[" +
@@ -89,6 +90,7 @@ static void AddTable()
             }
             doc.Body.Append(table);
             doc.Save();
+            Console.WriteLine("Generation Successful");
         }
     }
 }
