@@ -39,7 +39,7 @@ static void InsertText()
         // Insert cell A1 into the new worksheet.
         Cell cell = InsertCellInWorksheet("B", 2, worksheetPart);
 
-        // Set the value of cell A1.
+        // Set the value of cell B2.
         cell.CellValue = new CellValue(index.ToString());
         cell.DataType = new EnumValue<CellValues>(CellValues.SharedString);
 

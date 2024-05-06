@@ -3,6 +3,10 @@ using DocumentFormat.OpenXml.Packaging;
 
 Console.WriteLine("Hello, World!");
 
+AddImage("C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_PowerPoint\\PPT_Folder\\blankPPT.pptx",
+         "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_PowerPoint\\PPT_Folder\\photo.jpg",
+         100000, 100000);
+
 static void AddImage(string file, string image, int xPosition, int yPosition)
 {
     using (var presentation = PresentationDocument.Open(file, true))
@@ -86,6 +90,3 @@ static void AddImage(string file, string image, int xPosition, int yPosition)
     }
 }
 
-AddImage("C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_PowerPoint\\PPT_Folder\\blankPPT.pptx",
-         "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Image_Insert_In_PowerPoint\\PPT_Folder\\photo.jpg",
-         100000, 100000);

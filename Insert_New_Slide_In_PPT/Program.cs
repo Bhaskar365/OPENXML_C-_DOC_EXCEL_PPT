@@ -14,7 +14,7 @@ InsertNewSlide();
 static void InsertNewSlide()
 {
     Console.WriteLine("Insertion code started");
-    string presentationFile = "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Insert_New_Slide_In_PPT\\PPT_Folder\\NewBlankPresentation1.pptx";
+    string presentationFile = "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Insert_New_Slide_In_PPT\\PPT_Folder\\NewBlankPpt.pptx";
     int position = 1;
     string slideTitle = "First Slide Insertion";
     // Open the source document as read/write. 

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "g/0W8DfXqXS2wEOe7X3o0Iz8AnQ2mQirJxBDSm6NgTB7Kj40v4e2//1MDwPLSKSqWJymviherqqHCay2JgtK0A==",
+  "success": true,
+  "projectFilePath": "C:\\OPENXML_C#\\Document_Generation_Using_OpenXML_With_Font_Syling\\Generate_New_PPT\\Generate_New_PPT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bdas\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
+    "C:\\Users\\bdas\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
+    "C:\\Users\\bdas\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

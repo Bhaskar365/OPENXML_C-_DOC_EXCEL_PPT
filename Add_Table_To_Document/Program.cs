@@ -3,7 +3,7 @@ using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
 using DocumentFormat.OpenXml;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Program to add table to document");
 
 AddTable();
 
@@ -32,6 +32,8 @@ static void AddTable()
             {
                 throw new ArgumentNullException("MainDocumentPart and/or Body is null.");
             }
+
+            Console.WriteLine("Generation started");
 
             var doc = document.MainDocumentPart.Document;
 
