@@ -1,7 +1,7 @@
 
 Clone the repo and then give the local path of your system for triggering document file in the folder I am using . If you do not want the folder , use the location of your project tree.
 
-**Note** : _Selecting project tree may select csproj file also. Making changes to the file makes the project corrupted._
+**Note** : _Selecting project tree for destination may select csproj file also. Making changes to the file makes the project corrupted._
 
 1.) Document file generation using OpenXML instruction
 
